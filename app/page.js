@@ -114,7 +114,6 @@ export default function Home() {
             <div className=" col-md-4 col-sm-6 col-12">
               <div className="service-wrapper">
                 <div className="service-wrap">
-                  <div className="square"></div>
                   <div className="icon-ctn">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
