@@ -1,6 +1,7 @@
 import Image from "next/image";
 import "./page.css";
 import Link from "next/link";
+import Contact from "@components/Contact";
 
 export default function Home() {
   return (
@@ -407,6 +408,139 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section className="count-ctn">
+        <div className="container">
+          <div className="title-ctn2">
+            <p>Fun Facts</p>
+            <h1>Discover more</h1>
+          </div>
+          <div className="row">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+              <div className="count-wrapper">
+                <h1>
+                  41 <span>+</span>
+                </h1>
+                <p>Years of Experience</p>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+              <div className="count-wrapper">
+                <h1>
+                  20k <span>+</span>
+                </h1>
+                <p>Successful Projects</p>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+              <div className="count-wrapper">
+                <h1>
+                  15k <span>+</span>
+                </h1>
+                <p>Customer Satisfaction</p>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+              <div className="count-wrapper">
+                <h1>
+                  20 <span>+</span>
+                </h1>
+                <p>Awards For Excellence</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="container">
+        <div className="partnerCtn">
+          <div className="title-ctn">
+            <p>OUR OFFICIAL CLIENTS WHO ARE PLEASED WITH OUR SERVICES</p>
+            <h1>CLIENTS</h1>
+          </div>
+          <div className="row">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
+              <div className="partner">
+                <Image
+                  src="/assets/images/logo_1.png"
+                  width={150}
+                  height={150}
+                  alt="Alphaden group"
+                />
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
+              <div className="partner">
+                <Image
+                  src="/assets/images/logo_2.png"
+                  width={150}
+                  height={150}
+                  alt="Alphaden group"
+                />
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
+              <div className="partner">
+                <Image
+                  src="/assets/images/logo_3.png"
+                  width={150}
+                  height={150}
+                  alt="Alphaden group"
+                />
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
+              <div className="partner">
+                <Image
+                  src="/assets/images/logo_4.png"
+                  width={150}
+                  height={150}
+                  alt="Alphaden group"
+                />
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
+              <div className="partner">
+                <Image
+                  src="/assets/images/logo_5.png"
+                  width={150}
+                  height={150}
+                  alt="Alphaden group"
+                />
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
+              <div className="partner">
+                <Image
+                  src="/assets/images/logo_6.png"
+                  width={150}
+                  height={150}
+                  alt="Alphaden group"
+                />
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
+              <div className="partner">
+                <Image
+                  src="/assets/images/logo_7.png"
+                  width={150}
+                  height={150}
+                  alt="Alphaden group"
+                />
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
+              <div className="partner">
+                <Image
+                  src="/assets/images/logo_8.png"
+                  width={150}
+                  height={150}
+                  alt="Alphaden group"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <Contact />
     </>
   );
 }

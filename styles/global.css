@@ -37,7 +37,8 @@ body {
   position: relative;
 }
 
-.title-ctn h1 {
+.title-ctn h1,
+.title-ctn2 h1 {
   font-size: 25px;
   margin-bottom: 10px;
   color: #262626;
@@ -46,7 +47,12 @@ body {
   font-family: "Nunito Sans", sans-serif;
 }
 
-.title-ctn p {
+.title-ctn2 h1 {
+  color: #fff;
+}
+
+.title-ctn p,
+.title-ctn2 p {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
@@ -57,7 +63,8 @@ body {
 }
 
 @media only screen and (min-width: 46.875em) {
-  .title-ctn h1 {
+  .title-ctn h1,
+  .title-ctn2 h1 {
     font-size: 45px;
   }
 }

@@ -1,0 +1,76 @@
+.contactWrapperForm {
+  margin-bottom: 80px;
+}
+
+.addressCtn {
+  margin-bottom: 30px;
+}
+
+.addressCtn div {
+  margin: 15px 0;
+}
+
+.addressCtn h5 {
+  line-height: 1.8;
+  color: #262626;
+  margin-bottom: 2px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.addressCtn p {
+  line-height: 1.25;
+  font-weight: 800;
+  font-size: 18px;
+  margin: 0;
+}
+
+.contactFormCtn {
+  background-color: #f6f8fa;
+  border-radius: 6px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.contactFormCtn input,
+.contactFormCtn textarea {
+  transition-duration: 300ms;
+  background-color: transparent;
+  border: 0.5px solid #f78da7;
+  border-radius: 8px;
+  font-size: 15px;
+  text-transform: capitalize;
+  color: #262626;
+  padding: 8px 10px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.contactFormCtn input:focus,
+.contactFormCtn textarea:focus {
+  box-shadow: none;
+  border: 0.5px solid #96989b;
+  outline: none;
+}
+
+.contactFormCtn button {
+  padding: 10px 0px;
+  transition: all 0.4s ease-out 0s;
+  border-radius: 20px;
+  background: #f78da7;
+  width: 180px;
+  outline: none;
+  border: none;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.contactFormCtn button:hover {
+  background-color: #96989b;
+}
+
+.contactFormCtn button svg {
+  width: 20px;
+}
