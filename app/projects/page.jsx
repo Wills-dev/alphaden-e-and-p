@@ -32,11 +32,6 @@ const page = () => {
       </section>
       <section className="projects-ctn">
         <div className="container">
-          <div className="title-ctn">
-            <p>Success Stories</p>
-            <h1>Our Proudest Accomplishments</h1>
-          </div>
-
           <div className="projectCtn">
             <div className="row">
               <div className=" col-sm-6 col-12 p-0">
