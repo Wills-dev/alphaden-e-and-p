@@ -7,7 +7,6 @@ import Contact from "@components/Contact";
 const page = () => {
   return (
     <div>
-      {" "}
       <section className="main-title-ctn">
         <div className="container">
           <div className="main-title">
@@ -33,202 +32,288 @@ const page = () => {
           </div>
         </div>
       </section>
+      <section className="container">
+        <div className="story-ctn">
+          <div className="row">
+            <div className="col-md-6 col-12">
+              <div className="story-wrapper">
+                <h5>Our story</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+                  minus cupiditate hic suscipit tempora quod quae maiores
+                  repellendus beatae magnam amet fuga ducimus autem odio
+                  nesciunt, qui saepe magni ullam similique neque quam aut
+                  soluta. Exercitationem voluptates quaerat placeat vel unde.
+                  Voluptas, rem nihil consequatur dolore beatae non officia
+                  sequi aliquid magnam nisi obcaecati aspernatur explicabo est
+                  reprehenderit doloremque odio quis voluptate, natus asperiores
+                  quam cum fugiat dicta!{" "}
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+                  minus cupiditate hic suscipit tempora quod quae maiores
+                  repellendus beatae magnam amet fuga ducimus autem odio
+                  nesciunt, qui saepe magni ullam similique neque quam aut
+                  soluta. Exercitationem voluptates quaerat placeat vel unde.
+                  Voluptas, rem nihil consequatur dolore beatae non officia
+                  sequi aliquid magnam nisi obcaecati aspernatur explicabo est
+                  reprehenderit doloremque odio quis voluptate, natus asperiores
+                  quam cum fugiat dicta! Ab, impedit enim ratione laudantium
+                  molestias doloribus architecto ullam voluptatum necessitatibus
+                  recusandae quae vitae esse placeat porro corrupti quis
+                  obcaecati quia saepe facere eos a aut reiciendis. Corporis
+                  numquam mollitia excepturi id?
+                </p>
+              </div>
+            </div>
+            <div className="col-md-6 col-12">
+              <div className="story-img-ctn"></div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="step-ctn">
         <div className="container">
           <div className="row">
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+            <div className=" col-md-6 col-12">
               <div className="step-wrapper">
-                <h5>How it works</h5>
-                <h2>Business Strategies</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h6>Our mission</h6>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. quam
+                  cum fugiat dicta! Ab, impedit enim ratione laudantium
+                  molestias doloribus architecto ullam voluptatum necessitatibus
+                  recusandae quae vitae esse placeat porro corrupti quis
+                  obcaecati quia saepe facere eos a aut reiciendis. Corporis
+                  numquam mollitia excepturi id?
+                </p>
               </div>
             </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div className="step-wrapper">
-                <span className="bg-text">1</span>
-                <h6>Step 1</h6>
-                <h2>Exploration and drilling</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div className="step-wrapper">
-                <span className="bg-text">2</span>
-                <h6>Step 2</h6>
-                <h2>Refining and processing</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div className="step-wrapper">
-                <span className="bg-text">3</span>
-                <h6>Step 3</h6>
-                <h2>Transportation & distribution</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="container">
-        <div className="about-us-main-ctn">
-          <div className="row">
-            <div className="col-md-6 col-12">
-              <div className="about-main-img"></div>
-            </div>
-            <div className="col-md-6 col-12">
-              <div className="about-main-content">
-                <h5>Mission & Vision</h5>
-                <h1>Driving Forward</h1>
 
-                <h6>Setting the course for success</h6>
+            <div className=" col-md-6 col-12">
+              <div className="step-wrapper">
+                <h6>Our vision</h6>
                 <p>
-                  inappropriate behavior is often laughed off as “boys will be
-                  boys,” women face higher conduct standards especially in the
-                  workplace. That’s why it’s crucial that, as women, our
-                  behavior on the job is beyond reproach. inappropriate behavior
-                  is often laughed.
-                </p>
-                <h6>Charting a path to the future</h6>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur
-                  adipisicing elit, sed do eiusmod temp or incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor
-                  sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. quam
+                  cum fugiat dicta! Ab, impedit enim ratione laudantium
+                  molestias doloribus architecto ullam voluptatum necessitatibus
+                  recusandae quae vitae esse placeat porro corrupti quis
+                  obcaecati quia saepe facere eos a aut reiciendis. Corporis
+                  numquam mollitia excepturi id?
                 </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section className="bg-2"></section>
       <section className="container">
-        <div className="about-us-main-ctn">
+        <div className="team-ctn">
+          <div className="team-title-ctn">
+            <h4>Our Awesome Team</h4>
+            <p>
+              Alphaden P and E promotes a relaxed, culturally diverse workplace
+              for the optimal performance of its employees, as well as an
+              all-round friendly experience for anyone who walks through our
+              doors. We are called Team Awesome!
+            </p>
+          </div>
           <div className="row">
-            <div className="col-md-6 col-12">
-              <div className="about-main-content">
-                <h5>Expertise & Experience</h5>
-                <h1>Shaping the Future</h1>
+            <div className="col-lg-2 col-md-3 col-sm-4 col-6">
+              <div className="team-img-ctn team-1">
+                <Link className="team-media-link" href="twitter.com/">
+                  <Image
+                    src="/assets/icons/linkedin.svg"
+                    width={20}
+                    height={20}
+                    alt="alphaden linkedin"
+                  />
+                </Link>
+              </div>
+              <div className="team-content">
+                <h6>Williams Bassey</h6>
+                <p>Founder & CEO</p>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-3 col-sm-4 col-6">
+              <div className="team-img-ctn team-2">
+                <Link className="team-media-link" href="twitter.com/">
+                  <Image
+                    src="/assets/icons/linkedin.svg"
+                    width={20}
+                    height={20}
+                    alt="alphaden linkedin"
+                  />
+                </Link>
+              </div>
+              <div className="team-content">
+                <h6>Elizabeth Bassey</h6>
+                <p>Co-Founder & CTO</p>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-3 col-sm-4 col-6">
+              <div className="team-img-ctn team-3">
+                <Link className="team-media-link" href="twitter.com/">
+                  <Image
+                    src="/assets/icons/linkedin.svg"
+                    width={20}
+                    height={20}
+                    alt="alphaden linkedin"
+                  />
+                </Link>
+              </div>
+              <div className="team-content">
+                <h6>Kaburi Ahmed</h6>
+                <p>Head Partnerships</p>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-3 col-sm-4 col-6">
+              <div className="team-img-ctn team-8">
+                <Link className="team-media-link" href="twitter.com/">
+                  <Image
+                    src="/assets/icons/linkedin.svg"
+                    width={20}
+                    height={20}
+                    alt="alphaden linkedin"
+                  />
+                </Link>
+              </div>
+              <div className="team-content">
+                <h6>Judith Ham</h6>
+                <p>Human Resource Manager</p>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-3 col-sm-4 col-6">
+              <div className="team-img-ctn team-4">
+                <Link className="team-media-link" href="twitter.com/">
+                  <Image
+                    src="/assets/icons/linkedin.svg"
+                    width={20}
+                    height={20}
+                    alt="alphaden linkedin"
+                  />
+                </Link>
+              </div>
+              <div className="team-content">
+                <h6>Wilson Gabriel</h6>
+                <p>Finance Officer</p>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-3 col-sm-4 col-6">
+              <div className="team-img-ctn team-9">
+                <Link className="team-media-link" href="twitter.com/">
+                  <Image
+                    src="/assets/icons/linkedin.svg"
+                    width={20}
+                    height={20}
+                    alt="alphaden linkedin"
+                  />
+                </Link>
+              </div>
+              <div className="team-content">
+                <h6>Bassey Bush</h6>
+                <p> Public Relations</p>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-3 col-sm-4 col-6">
+              <div className="team-img-ctn team-5">
+                <Link className="team-media-link" href="twitter.com/">
+                  <Image
+                    src="/assets/icons/linkedin.svg"
+                    width={20}
+                    height={20}
+                    alt="alphaden linkedin"
+                  />
+                </Link>
+              </div>
+              <div className="team-content">
+                <h6>Victor Wills</h6>
+                <p>Digital Lead</p>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-3 col-sm-4 col-6">
+              <div className="team-img-ctn team-6">
+                <Link className="team-media-link" href="twitter.com/">
+                  <Image
+                    src="/assets/icons/linkedin.svg"
+                    width={20}
+                    height={20}
+                    alt="alphaden linkedin"
+                  />
+                </Link>
+              </div>
+              <div className="team-content">
+                <h6>Maxwell Bassey</h6>
+                <p>Lead Engineer</p>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-3 col-sm-4 col-6">
+              <div className="team-img-ctn team-10">
+                <Link className="team-media-link" href="twitter.com/">
+                  <Image
+                    src="/assets/icons/linkedin.svg"
+                    width={20}
+                    height={20}
+                    alt="alphaden linkedin"
+                  />
+                </Link>
+              </div>
+              <div className="team-content">
+                <h6>Bridget Giwi</h6>
+                <p>Head, Operations</p>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-3 col-sm-4 col-6">
+              <div className="team-img-ctn team-7">
+                <Link className="team-media-link" href="twitter.com/">
+                  <Image
+                    src="/assets/icons/linkedin.svg"
+                    width={20}
+                    height={20}
+                    alt="alphaden linkedin"
+                  />
+                </Link>
+              </div>
+              <div className="team-content">
+                <h6>Alex Gumba</h6>
+                <p>Engineer</p>
+              </div>
+            </div>
 
-                <h6>Cutting-edge Technology and Innovations</h6>
-                <p>
-                  inappropriate behavior is often laughed off as “boys will be
-                  boys,” women face higher conduct standards especially in the
-                  workplace. That’s why it’s crucial that, as women, our
-                  behavior on the job is beyond reproach. inappropriate behavior
-                  is often laughed.
-                </p>
-                <h6>A Track Record of Successful Projects</h6>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur
-                  adipisicing elit, sed do eiusmod temp or incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor
-                  sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
-                </p>
+            <div className="col-lg-2 col-md-3 col-sm-4 col-6">
+              <div className="team-img-ctn team-11">
+                <Link className="team-media-link" href="twitter.com/">
+                  <Image
+                    src="/assets/icons/linkedin.svg"
+                    width={20}
+                    height={20}
+                    alt="alphaden linkedin"
+                  />
+                </Link>
+              </div>
+              <div className="team-content">
+                <h6>Debra Musk</h6>
+                <p>Engineer</p>
               </div>
             </div>
-            <div className="col-md-6 col-12">
-              <div className="about-main-img-2"></div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="container">
-        <div className="partnerCtn">
-          <div className="title-ctn">
-            <p>OUR OFFICIAL CLIENTS WHO ARE PLEASED WITH OUR SERVICES</p>
-            <h1>TRUSTED CLIENTS</h1>
-          </div>
-          <div className="row">
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
-              <div className="partner">
-                <Image
-                  src="/assets/images/logo_1.png"
-                  width={150}
-                  height={150}
-                  alt="Alphaden group"
-                />
+            <div className="col-lg-2 col-md-3 col-sm-4 col-6">
+              <div className="team-img-ctn team-12">
+                <Link className="team-media-link" href="twitter.com/">
+                  <Image
+                    src="/assets/icons/linkedin.svg"
+                    width={20}
+                    height={20}
+                    alt="alphaden linkedin"
+                  />
+                </Link>
               </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
-              <div className="partner">
-                <Image
-                  src="/assets/images/logo_2.png"
-                  width={150}
-                  height={150}
-                  alt="Alphaden group"
-                />
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
-              <div className="partner">
-                <Image
-                  src="/assets/images/logo_3.png"
-                  width={150}
-                  height={150}
-                  alt="Alphaden group"
-                />
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
-              <div className="partner">
-                <Image
-                  src="/assets/images/logo_4.png"
-                  width={150}
-                  height={150}
-                  alt="Alphaden group"
-                />
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
-              <div className="partner">
-                <Image
-                  src="/assets/images/logo_5.png"
-                  width={150}
-                  height={150}
-                  alt="Alphaden group"
-                />
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
-              <div className="partner">
-                <Image
-                  src="/assets/images/logo_6.png"
-                  width={150}
-                  height={150}
-                  alt="Alphaden group"
-                />
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
-              <div className="partner">
-                <Image
-                  src="/assets/images/logo_7.png"
-                  width={150}
-                  height={150}
-                  alt="Alphaden group"
-                />
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
-              <div className="partner">
-                <Image
-                  src="/assets/images/logo_8.png"
-                  width={150}
-                  height={150}
-                  alt="Alphaden group"
-                />
+              <div className="team-content">
+                <h6>Hassan Daku</h6>
+                <p>Engineer</p>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <section className="bg-5"></section>
       <Contact />
     </div>
   );

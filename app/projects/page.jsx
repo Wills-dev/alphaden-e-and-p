@@ -30,43 +30,6 @@ const page = () => {
           </div>
         </div>
       </section>
-      <section className="step-ctn">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div className="step-wrapper">
-                <h5>How it works</h5>
-                <h2>Business Strategies</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div className="step-wrapper">
-                <span className="bg-text">1</span>
-                <h6>Step 1</h6>
-                <h2>Exploration and drilling</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div className="step-wrapper">
-                <span className="bg-text">2</span>
-                <h6>Step 2</h6>
-                <h2>Refining and processing</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div className="step-wrapper">
-                <span className="bg-text">3</span>
-                <h6>Step 3</h6>
-                <h2>Transportation & distribution</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <section className="projects-ctn">
         <div className="container">
           <div className="title-ctn">
