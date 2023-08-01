@@ -5,7 +5,6 @@ import "@styles/global.css";
 
 export const metadata = {
   title: "Alphaden E and  P",
-  description: "We're a provider of fit-for-purpose services",
 };
 
 const RootLayout = ({ children }) => {
