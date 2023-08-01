@@ -1,7 +1,6 @@
 import "./About.css";
 import "../page.css";
 import Link from "next/link";
-import Image from "next/image";
 import Contact from "@components/Contact";
 
 const page = () => {
