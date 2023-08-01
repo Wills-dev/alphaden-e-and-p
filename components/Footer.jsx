@@ -11,36 +11,26 @@ const Footer = () => {
             <div className="row">
               <div className=" col-md-4 col-sm-6 col-12">
                 <div className="footerCtn">
-                  <div className="footer-logo">
-                    {" "}
-                    <Link href="/">
-                      <Image
-                        src="/assets/images/logo.png"
-                        alt="Alphaden group"
-                        height={50}
-                        width={50}
-                      />
-                    </Link>
-                  </div>
+                  <h4> Alphaden Gas</h4>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore dolore magna
-                    aliqua.
+                    Join us at Alphaden Gas and unlock the potential of a
+                    complete midstream and downstream solutions provider,
+                    committed to a cleaner, more sustainable energy future.
+                    Contact us today to learn more about our services and how we
+                    can partner with you in shaping a better tomorrow.
                   </p>
-                  <p>
-                    +234(0)700 257 4233 <br /> +234(0)700 ALPHADEN
-                  </p>
+                  <p>+(234) 0909-933-3222</p>
                 </div>
               </div>
               <div className="col-md-4 col-sm-6 col-12">
                 <div className="footerCtn">
                   <h4> Office</h4>
                   <p>
-                    #302, 42, Geojejungang-ro,15-Gil, Geoje-si,
-                    Kyeongsangnam-do, Republic of Korea
+                    Plot 23 Furo Ezimora Street, Off Adewunmi Adebimpe Drive,
+                    Off Marwa Roundabout, Lekki Phase 1, Lagos State, Nigeria.
                   </p>
 
-                  <p>info@alphadenenergy.com</p>
+                  <p>info@alphadengas.com</p>
                 </div>
               </div>
               <div className=" col-md-4 col-sm-6 col-12">
@@ -88,8 +78,7 @@ const Footer = () => {
                   </p>
                   <p className="mt-2">
                     {" "}
-                    Copyright © 2023 Alphaden Energy and Oilfield Limited. All
-                    rights reserved.
+                    Copyright © 2023 Alphaden Gas. All rights reserved.
                   </p>
                 </div>
               </div>

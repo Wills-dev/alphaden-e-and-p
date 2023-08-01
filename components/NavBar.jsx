@@ -84,8 +84,8 @@ const NavBar = () => {
               </li>
             </ul>
             <ul className="nav-contact-ctn">
-              <li>+(123) 1234-567-8901</li>
-              <li> info@domain.com</li>
+              <li>+(234) 0909-933-3222</li>
+              <li> info@alphadengas.com</li>
             </ul>
           </div>
         </div>
@@ -96,7 +96,7 @@ const NavBar = () => {
             <div className="logo-ctn">
               <Link href="/">
                 <Image
-                  src="/assets/images/logo.png"
+                  src="/assets/images/alphadengas.jpeg"
                   alt="Alphaden group"
                   height={50}
                   width={50}

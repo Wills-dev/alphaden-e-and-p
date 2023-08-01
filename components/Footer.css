@@ -22,8 +22,8 @@
 
 .footer-logo a img {
   width: 100%;
-  height: auto;
-  object-fit: cover;
+  height: 70px;
+  object-fit: contain;
 }
 
 .footerCtn h4 {

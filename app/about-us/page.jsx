@@ -39,30 +39,12 @@ const page = () => {
               <div className="story-wrapper">
                 <h5>Our story</h5>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-                  minus cupiditate hic suscipit tempora quod quae maiores
-                  repellendus beatae magnam amet fuga ducimus autem odio
-                  nesciunt, qui saepe magni ullam similique neque quam aut
-                  soluta. Exercitationem voluptates quaerat placeat vel unde.
-                  Voluptas, rem nihil consequatur dolore beatae non officia
-                  sequi aliquid magnam nisi obcaecati aspernatur explicabo est
-                  reprehenderit doloremque odio quis voluptate, natus asperiores
-                  quam cum fugiat dicta!{" "}
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-                  minus cupiditate hic suscipit tempora quod quae maiores
-                  repellendus beatae magnam amet fuga ducimus autem odio
-                  nesciunt, qui saepe magni ullam similique neque quam aut
-                  soluta. Exercitationem voluptates quaerat placeat vel unde.
-                  Voluptas, rem nihil consequatur dolore beatae non officia
-                  sequi aliquid magnam nisi obcaecati aspernatur explicabo est
-                  reprehenderit doloremque odio quis voluptate, natus asperiores
-                  quam cum fugiat dicta! Ab, impedit enim ratione laudantium
-                  molestias doloribus architecto ullam voluptatum necessitatibus
-                  recusandae quae vitae esse placeat porro corrupti quis
-                  obcaecati quia saepe facere eos a aut reiciendis. Corporis
-                  numquam mollitia excepturi id?
+                  At Alphaden Gas, we are a leading name in the oil and gas
+                  industry, specializing in developing comprehensive midstream
+                  and downstream solutions. With our cutting-edge expertise and
+                  dedication to innovation, we have cemented our position as a
+                  trusted partner for companies seeking top-notch gas processing
+                  services and hydrogen production capabilities.
                 </p>
               </div>
             </div>
@@ -77,237 +59,79 @@ const page = () => {
           <div className="row">
             <div className=" col-md-6 col-12">
               <div className="step-wrapper">
-                <h6>Our mission</h6>
+                <h6>Gas Processing Expertise</h6>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. quam
-                  cum fugiat dicta! Ab, impedit enim ratione laudantium
-                  molestias doloribus architecto ullam voluptatum necessitatibus
-                  recusandae quae vitae esse placeat porro corrupti quis
-                  obcaecati quia saepe facere eos a aut reiciendis. Corporis
-                  numquam mollitia excepturi id?
+                  Our expertise in gas processing sets us apart in the industry.
+                  We are the first Nigerian domestic company to commercialize
+                  flair Gas. We are proficient in handling various forms of
+                  natural gas, including LNG (Liquefied Natural Gas), CNG
+                  (Compressed Natural Gas), and LPG (Liquefied Petroleum Gas).
+                  Whether it's liquefaction, compression, or purification, our
+                  state-of-the-art facilities are equipped to handle each
+                  process efficiently and safely. Our team of seasoned
+                  professionals ensures that gas is processed to the highest
+                  standards, meeting the stringent demands of the market.
                 </p>
               </div>
             </div>
 
             <div className=" col-md-6 col-12">
               <div className="step-wrapper">
-                <h6>Our vision</h6>
+                <h6>Hydrogen Production</h6>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. quam
-                  cum fugiat dicta! Ab, impedit enim ratione laudantium
-                  molestias doloribus architecto ullam voluptatum necessitatibus
-                  recusandae quae vitae esse placeat porro corrupti quis
-                  obcaecati quia saepe facere eos a aut reiciendis. Corporis
-                  numquam mollitia excepturi id?
+                  Recognizing the rising importance of hydrogen as a clean and
+                  versatile energy source, Alphaden Gas has proudly initiated
+                  processes to produces both blue and green hydrogen. Our blue
+                  hydrogen will be produced from natural gas, utilizing advanced
+                  carbon capture and storage (CCS) technologies to minimize
+                  carbon emissions, making it an environmentally responsible
+                  choice. On the other hand, our green hydrogen will be produced
+                  using renewable energy sources, providing a completely
+                  emissions-free alternative for industries and customers
+                  committed to sustainability.
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <section className="container">
-        <div className="team-ctn">
-          <div className="team-title-ctn">
-            <h4>Our Awesome Team</h4>
-            <p>
-              Alphaden P and E promotes a relaxed, culturally diverse workplace
-              for the optimal performance of its employees, as well as an
-              all-round friendly experience for anyone who walks through our
-              doors. We are called Team Awesome!
-            </p>
-          </div>
-          <div className="row">
-            <div className="col-lg-2 col-md-3 col-sm-4 col-6">
-              <div className="team-img-ctn team-1">
-                <Link className="team-media-link" href="twitter.com/">
-                  <Image
-                    src="/assets/icons/linkedin.svg"
-                    width={20}
-                    height={20}
-                    alt="alphaden linkedin"
-                  />
-                </Link>
-              </div>
-              <div className="team-content">
-                <h6>Williams Bassey</h6>
-                <p>Founder & CEO</p>
+            <div className=" col-md-6 col-12">
+              <div className="step-wrapper">
+                <h6>Complete Solutions for the Oil and Gas Industry</h6>
+                <p>
+                  At Alphaden Gas, we understand the intricacies of the oil and
+                  gas sector, and that's why we offer complete solutions. Our
+                  midstream capabilities ensure efficient transportation and
+                  storage of hydrocarbons, while our downstream expertise
+                  involves refining, marketing, and distributing the final
+                  products. With our end-to-end services, we streamline the
+                  entire supply chain, guaranteeing reliable and cost-effective
+                  operations.
+                </p>
               </div>
             </div>
-            <div className="col-lg-2 col-md-3 col-sm-4 col-6">
-              <div className="team-img-ctn team-2">
-                <Link className="team-media-link" href="twitter.com/">
-                  <Image
-                    src="/assets/icons/linkedin.svg"
-                    width={20}
-                    height={20}
-                    alt="alphaden linkedin"
-                  />
-                </Link>
-              </div>
-              <div className="team-content">
-                <h6>Elizabeth Bassey</h6>
-                <p>Co-Founder & CTO</p>
+            <div className=" col-md-6 col-12">
+              <div className="step-wrapper">
+                <h6> Commitment to Sustainability</h6>
+                <p>
+                  We are committed to sustainability in everything we do.
+                  Alphaden Gas places a strong emphasis on reducing the
+                  environmental impact of our operations and products. By
+                  investing in cutting-edge technologies and green initiatives,
+                  we aim to contribute to a cleaner and greener future for the
+                  industry and the planet.
+                </p>
               </div>
             </div>
-            <div className="col-lg-2 col-md-3 col-sm-4 col-6">
-              <div className="team-img-ctn team-3">
-                <Link className="team-media-link" href="twitter.com/">
-                  <Image
-                    src="/assets/icons/linkedin.svg"
-                    width={20}
-                    height={20}
-                    alt="alphaden linkedin"
-                  />
-                </Link>
-              </div>
-              <div className="team-content">
-                <h6>Kaburi Ahmed</h6>
-                <p>Head Partnerships</p>
-              </div>
-            </div>
-            <div className="col-lg-2 col-md-3 col-sm-4 col-6">
-              <div className="team-img-ctn team-8">
-                <Link className="team-media-link" href="twitter.com/">
-                  <Image
-                    src="/assets/icons/linkedin.svg"
-                    width={20}
-                    height={20}
-                    alt="alphaden linkedin"
-                  />
-                </Link>
-              </div>
-              <div className="team-content">
-                <h6>Judith Ham</h6>
-                <p>Human Resource Manager</p>
-              </div>
-            </div>
-            <div className="col-lg-2 col-md-3 col-sm-4 col-6">
-              <div className="team-img-ctn team-4">
-                <Link className="team-media-link" href="twitter.com/">
-                  <Image
-                    src="/assets/icons/linkedin.svg"
-                    width={20}
-                    height={20}
-                    alt="alphaden linkedin"
-                  />
-                </Link>
-              </div>
-              <div className="team-content">
-                <h6>Wilson Gabriel</h6>
-                <p>Finance Officer</p>
-              </div>
-            </div>
-            <div className="col-lg-2 col-md-3 col-sm-4 col-6">
-              <div className="team-img-ctn team-9">
-                <Link className="team-media-link" href="twitter.com/">
-                  <Image
-                    src="/assets/icons/linkedin.svg"
-                    width={20}
-                    height={20}
-                    alt="alphaden linkedin"
-                  />
-                </Link>
-              </div>
-              <div className="team-content">
-                <h6>Bassey Bush</h6>
-                <p> Public Relations</p>
-              </div>
-            </div>
-            <div className="col-lg-2 col-md-3 col-sm-4 col-6">
-              <div className="team-img-ctn team-5">
-                <Link className="team-media-link" href="twitter.com/">
-                  <Image
-                    src="/assets/icons/linkedin.svg"
-                    width={20}
-                    height={20}
-                    alt="alphaden linkedin"
-                  />
-                </Link>
-              </div>
-              <div className="team-content">
-                <h6>Victor Wills</h6>
-                <p>Digital Lead</p>
-              </div>
-            </div>
-            <div className="col-lg-2 col-md-3 col-sm-4 col-6">
-              <div className="team-img-ctn team-6">
-                <Link className="team-media-link" href="twitter.com/">
-                  <Image
-                    src="/assets/icons/linkedin.svg"
-                    width={20}
-                    height={20}
-                    alt="alphaden linkedin"
-                  />
-                </Link>
-              </div>
-              <div className="team-content">
-                <h6>Maxwell Bassey</h6>
-                <p>Lead Engineer</p>
-              </div>
-            </div>
-            <div className="col-lg-2 col-md-3 col-sm-4 col-6">
-              <div className="team-img-ctn team-10">
-                <Link className="team-media-link" href="twitter.com/">
-                  <Image
-                    src="/assets/icons/linkedin.svg"
-                    width={20}
-                    height={20}
-                    alt="alphaden linkedin"
-                  />
-                </Link>
-              </div>
-              <div className="team-content">
-                <h6>Bridget Giwi</h6>
-                <p>Head, Operations</p>
-              </div>
-            </div>
-            <div className="col-lg-2 col-md-3 col-sm-4 col-6">
-              <div className="team-img-ctn team-7">
-                <Link className="team-media-link" href="twitter.com/">
-                  <Image
-                    src="/assets/icons/linkedin.svg"
-                    width={20}
-                    height={20}
-                    alt="alphaden linkedin"
-                  />
-                </Link>
-              </div>
-              <div className="team-content">
-                <h6>Alex Gumba</h6>
-                <p>Engineer</p>
-              </div>
-            </div>
-
-            <div className="col-lg-2 col-md-3 col-sm-4 col-6">
-              <div className="team-img-ctn team-11">
-                <Link className="team-media-link" href="twitter.com/">
-                  <Image
-                    src="/assets/icons/linkedin.svg"
-                    width={20}
-                    height={20}
-                    alt="alphaden linkedin"
-                  />
-                </Link>
-              </div>
-              <div className="team-content">
-                <h6>Debra Musk</h6>
-                <p>Engineer</p>
-              </div>
-            </div>
-            <div className="col-lg-2 col-md-3 col-sm-4 col-6">
-              <div className="team-img-ctn team-12">
-                <Link className="team-media-link" href="twitter.com/">
-                  <Image
-                    src="/assets/icons/linkedin.svg"
-                    width={20}
-                    height={20}
-                    alt="alphaden linkedin"
-                  />
-                </Link>
-              </div>
-              <div className="team-content">
-                <h6>Hassan Daku</h6>
-                <p>Engineer</p>
+            <div className=" col-md-6 col-12">
+              <div className="step-wrapper">
+                <h6> Partner with Alphaden Gas</h6>
+                <p>
+                  Our team of skilled professionals, state-of-the-art
+                  facilities, and unwavering dedication to excellence make
+                  Alphaden Gas the ideal partner for your gas processing needs.
+                  Whether you are looking for LNG, CNG, LPG solutions or seeking
+                  to embrace hydrogen as part of your sustainable energy
+                  strategy, we have the capacity and expertise to cater to your
+                  unique requirements.
+                </p>
               </div>
             </div>
           </div>

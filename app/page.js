@@ -9,10 +9,13 @@ export default function Home() {
       <header className="main-header">
         <div className="overlay"></div>
         <div className="bg-container">
-          <h6>Fueling the Future:</h6>
           <h1>
-            Sustainable <br /> Energy Solutions<span>.</span>
+            Welcome to <br /> Alphaden Gas<span>.</span>
           </h1>
+          <h6>
+            Your Complete Midstream and Downstream Solutions Provider for the
+            Oil and Gas Industry
+          </h6>
 
           <Link href="/about-us">
             Learn more{" "}
@@ -33,43 +36,7 @@ export default function Home() {
           </Link>
         </div>
       </header>
-      <section className="step-ctn">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div className="step-wrapper">
-                <h5>How it works</h5>
-                <h2>Business Strategies</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div className="step-wrapper">
-                <span className="bg-text">1</span>
-                <h6>Step 1</h6>
-                <h2>Exploration and drilling</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div className="step-wrapper">
-                <span className="bg-text">2</span>
-                <h6>Step 2</h6>
-                <h2>Refining and processing</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div className="step-wrapper">
-                <span className="bg-text">3</span>
-                <h6>Step 3</h6>
-                <h2>Transportation & distribution</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
       <section className="container">
         <div className="about-us-main-ctn">
           <div className="row">
@@ -78,26 +45,78 @@ export default function Home() {
             </div>
             <div className="col-md-6 col-12">
               <div className="about-main-content">
-                <h5>Mission & Vision</h5>
-                <h1>Driving Forward</h1>
+                <h5>ABOUT US</h5>
 
                 <h6>Setting the course for success</h6>
                 <p>
-                  inappropriate behavior is often laughed off as “boys will be
-                  boys,” women face higher conduct standards especially in the
-                  workplace. That’s why it’s crucial that, as women, our
-                  behavior on the job is beyond reproach. inappropriate behavior
-                  is often laughed.
+                  At Alphaden Gas, we are a leading name in the oil and gas
+                  industry, specializing in developing comprehensive midstream
+                  and downstream solutions. With our cutting-edge expertise and
+                  dedication to innovation, we have cemented our position as a
+                  trusted partner for companies seeking top-notch gas processing
+                  services and hydrogen production capabilities.
                 </p>
-                <h6>Charting a path to the future</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="step-ctn">
+        <div className="container">
+          <div className="title-ctn2 mb-5">
+            <h1>Services</h1>
+          </div>
+          <div className="row">
+            <div className="col-md-4 col-sm-6 col-12">
+              <div className="step-wrapper">
+                <span className="bg-text">1</span>
+
+                <h2>Alpha Smart Pipe</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur
-                  adipisicing elit, sed do eiusmod temp or incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor
-                  sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+                  Alpha Smart Pipe is an advanced and innovative solution
+                  designed to revolutionize gas processing operations.
+                </p>
+              </div>
+            </div>
+            <div className=" col-md-4 col-sm-6 col-12">
+              <div className="step-wrapper">
+                <span className="bg-text">2</span>
+                <h2>Smart Regulators</h2>
+                <p>
+                  Introducing Smart Regulators, a revolutionary solution that
+                  brings unmatched intelligence to gas regulation and
+                  distribution.
+                </p>
+              </div>
+            </div>
+            <div className=" col-md-4 col-sm-6 col-12">
+              <div className="step-wrapper">
+                <span className="bg-text">3</span>
+                <h2>Qdropp</h2>
+                <p>
+                  Qdropp is a game-changing platform for gas processing
+                  companies seeking seamless supply chain management.{" "}
+                </p>
+              </div>
+            </div>
+            <div className=" col-md-4 col-sm-6 col-12">
+              <div className="step-wrapper">
+                <span className="bg-text">4</span>
+                <h2>iseyo</h2>
+                <p>
+                  iseyo is an innovative gas analytics platform that unlocks the
+                  power of data to optimize gas processing operations.
+                </p>
+              </div>
+            </div>
+            <div className=" col-md-4 col-sm-6 col-12">
+              <div className="step-wrapper">
+                <span className="bg-text">5</span>
+                <h2>EnergyHub / Eontime Platform</h2>
+                <p>
+                  EnergyHub and Eontime Platform combine forces to create an
+                  all-encompassing ecosystem for gas processing operations.
                 </p>
               </div>
             </div>
@@ -106,10 +125,7 @@ export default function Home() {
       </section>
       <section className="container">
         <div className="services-ctn">
-          <div className="title-ctn">
-            <p>Our Expert Services</p>
-            <h1>Meeting Your Energy Needs</h1>
-          </div>
+          <div className="title-ctn"></div>
           <div className="row">
             <div className=" col-md-4 col-sm-6 col-12">
               <div className="service-wrapper">
@@ -131,11 +147,11 @@ export default function Home() {
                     </svg>
                   </div>
                   <div className="service">
-                    <h5>Exploration & Drilling</h5>
+                    <h5>Gas Processing Expertise</h5>
                     <p>
-                      orem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                      Our expertise in gas processing sets us apart in the
+                      industry. We are the first Nigerian domestic company to
+                      commercialize flair Gas.
                     </p>
                   </div>
                 </div>
@@ -170,11 +186,12 @@ export default function Home() {
                     </svg>
                   </div>
                   <div className="service">
-                    <h5>Refining & Processing</h5>
+                    <h5>Hydrogen Production</h5>
                     <p>
-                      orem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                      Recognizing the rising importance of hydrogen as a clean
+                      and versatile energy source, Alphaden Gas has proudly
+                      initiated processes to produces both blue and green
+                      hydrogen.
                     </p>
                   </div>
                 </div>
@@ -204,113 +221,11 @@ export default function Home() {
                     </svg>
                   </div>
                   <div className="service">
-                    <h5>Transport & Distribution</h5>
+                    <h5>Complete Solutions for the Oil and Gas Industry</h5>
                     <p>
-                      orem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
-                    </p>
-                  </div>
-                </div>
-
-                <Link href="/services">
-                  <button> Discover</button>
-                </Link>
-              </div>
-            </div>
-            <div className=" col-md-4 col-sm-6 col-12">
-              <div className="service-wrapper">
-                <div className="service-wrap">
-                  <div className="icon-ctn">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="currentColor"
-                      className="w-6 h-6"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M4.5 12a7.5 7.5 0 0015 0m-15 0a7.5 7.5 0 1115 0m-15 0H3m16.5 0H21m-1.5 0H12m-8.457 3.077l1.41-.513m14.095-5.13l1.41-.513M5.106 17.785l1.15-.964m11.49-9.642l1.149-.964M7.501 19.795l.75-1.3m7.5-12.99l.75-1.3m-6.063 16.658l.26-1.477m2.605-14.772l.26-1.477m0 17.726l-.26-1.477M10.698 4.614l-.26-1.477M16.5 19.794l-.75-1.299M7.5 4.205L12 12m6.894 5.785l-1.149-.964M6.256 7.178l-1.15-.964m15.352 8.864l-1.41-.513M4.954 9.435l-1.41-.514M12.002 12l-3.75 6.495"
-                      />
-                    </svg>
-                  </div>
-                  <div className="service">
-                    <h5>Renewable Energy Solutions</h5>
-                    <p>
-                      orem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
-                    </p>
-                  </div>
-                </div>
-
-                <Link href="/services">
-                  <button> Discover</button>
-                </Link>
-              </div>
-            </div>
-            <div className=" col-md-4 col-sm-6 col-12">
-              <div className="service-wrapper">
-                <div className="service-wrap">
-                  <div className="icon-ctn">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="currentColor"
-                      className="w-6 h-6"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zm-7.518-.267A8.25 8.25 0 1120.25 10.5M8.288 14.212A5.25 5.25 0 1117.25 10.5"
-                      />
-                    </svg>
-                  </div>
-                  <div className="service">
-                    <h5>Maintenance & Repair</h5>
-                    <p>
-                      orem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
-                    </p>
-                  </div>
-                </div>
-
-                <Link href="/services">
-                  <button> Discover</button>
-                </Link>
-              </div>
-            </div>
-            <div className=" col-md-4 col-sm-6 col-12">
-              <div className="service-wrapper">
-                <div className="service-wrap">
-                  <div className="icon-ctn">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="currentColor"
-                      className="w-6 h-6"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"
-                      />
-                    </svg>
-                  </div>
-                  <div className="service">
-                    <h5>Management & Sustainability</h5>
-                    <p>
-                      orem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                      At Alphaden Gas, we understand the intricacies of the oil
+                      and gas sector, and that's why we offer complete
+                      solutions.
                     </p>
                   </div>
                 </div>
@@ -379,25 +294,29 @@ export default function Home() {
             <div className="col-md-6 col-12">
               <div className="about-main-content">
                 <h5>Expertise & Experience</h5>
-                <h1>Shaping the Future</h1>
 
-                <h6>Cutting-edge Technology and Innovations</h6>
+                <h6>Cutting-edge and Innovations</h6>
                 <p>
-                  inappropriate behavior is often laughed off as “boys will be
-                  boys,” women face higher conduct standards especially in the
-                  workplace. That’s why it’s crucial that, as women, our
-                  behavior on the job is beyond reproach. inappropriate behavior
-                  is often laughed.
+                  At Alphaden Gas, we understand the intricacies of the oil and
+                  gas sector, and that's why we offer complete solutions. Our
+                  midstream capabilities ensure efficient transportation and
+                  storage of hydrocarbons, while our downstream expertise
+                  involves refining, marketing, and distributing the final
+                  products. With our end-to-end services, we streamline the
+                  entire supply chain, guaranteeing reliable and cost-effective
+                  operations.
                 </p>
-                <h6>A Track Record of Successful Projects</h6>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur
-                  adipisicing elit, sed do eiusmod temp or incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor
-                  sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+                  Recognizing the rising importance of hydrogen as a clean and
+                  versatile energy source, Alphaden Gas has proudly initiated
+                  processes to produces both blue and green hydrogen. Our blue
+                  hydrogen will be produced from natural gas, utilizing advanced
+                  carbon capture and storage (CCS) technologies to minimize
+                  carbon emissions, making it an environmentally responsible
+                  choice. On the other hand, our green hydrogen will be produced
+                  using renewable energy sources, providing a completely
+                  emissions-free alternative for industries and customers
+                  committed to sustainability.
                 </p>
               </div>
             </div>

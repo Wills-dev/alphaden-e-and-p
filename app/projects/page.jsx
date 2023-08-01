@@ -80,25 +80,30 @@ const page = () => {
             <div className="col-md-6 col-12">
               <div className="about-main-content">
                 <h5>Expertise & Experience</h5>
-                <h1>Shaping the Future</h1>
 
-                <h6>Cutting-edge Technology and Innovations</h6>
+                <h6>Gas Processing Expertise</h6>
                 <p>
-                  inappropriate behavior is often laughed off as “boys will be
-                  boys,” women face higher conduct standards especially in the
-                  workplace. That’s why it’s crucial that, as women, our
-                  behavior on the job is beyond reproach. inappropriate behavior
-                  is often laughed.
+                  Our expertise in gas processing sets us apart in the industry.
+                  We are the first Nigerian domestic company to commercialize
+                  flair Gas. We are proficient in handling various forms of
+                  natural gas, including LNG (Liquefied Natural Gas), CNG
+                  (Compressed Natural Gas), and LPG (Liquefied Petroleum Gas).
+                  Whether it's liquefaction, compression, or purification, our
+                  state-of-the-art facilities are equipped to handle each
+                  process efficiently and safely. Our team of seasoned
+                  professionals ensures that gas is processed to the highest
+                  standards, meeting the stringent demands of the market.
                 </p>
-                <h6>A Track Record of Successful Projects</h6>
+                <h6>Complete Solutions for the Oil and Gas Industry</h6>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur
-                  adipisicing elit, sed do eiusmod temp or incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor
-                  sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+                  At Alphaden Gas, we understand the intricacies of the oil and
+                  gas sector, and that's why we offer complete solutions. Our
+                  midstream capabilities ensure efficient transportation and
+                  storage of hydrocarbons, while our downstream expertise
+                  involves refining, marketing, and distributing the final
+                  products. With our end-to-end services, we streamline the
+                  entire supply chain, guaranteeing reliable and cost-effective
+                  operations.
                 </p>
               </div>
             </div>
