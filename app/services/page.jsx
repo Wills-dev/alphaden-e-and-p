@@ -169,48 +169,6 @@ const page = () => {
           </div>
         </div>
       </section>
-      <section className="count-ctn">
-        <div className="container">
-          <div className="title-ctn2">
-            <p>Fun Facts</p>
-            <h1>Discover more</h1>
-          </div>
-          <div className="row">
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div className="count-wrapper">
-                <h1>
-                  41 <span>+</span>
-                </h1>
-                <p>Years of Experience</p>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div className="count-wrapper">
-                <h1>
-                  20k <span>+</span>
-                </h1>
-                <p>Successful Projects</p>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div className="count-wrapper">
-                <h1>
-                  15k <span>+</span>
-                </h1>
-                <p>Customer Satisfaction</p>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div className="count-wrapper">
-                <h1>
-                  20 <span>+</span>
-                </h1>
-                <p>Awards For Excellence</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <Contact />
     </div>
   );
