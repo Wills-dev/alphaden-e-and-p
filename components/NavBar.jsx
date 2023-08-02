@@ -96,7 +96,7 @@ const NavBar = () => {
             <div className="logo-ctn">
               <Link href="/">
                 <Image
-                  src="/assets/images/alphadengas.jpeg"
+                  src="/assets/images/alphadengas-removebg-preview.png"
                   alt="Alphaden group"
                   height={50}
                   width={50}
