@@ -30,7 +30,7 @@ const page = () => {
           </div>
         </div>
       </section>
-      <section className="projects-ctn">
+      {/* <section className="projects-ctn">
         <div className="container">
           <div className="projectCtn">
             <div className="row">
@@ -73,42 +73,32 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="container">
         <div className="about-us-main-ctn">
           <div className="row">
             <div className="col-md-6 col-12">
               <div className="about-main-content">
-                <h5>Expertise & Experience</h5>
+                <h5>Project</h5>
 
-                <h6>Gas Processing Expertise</h6>
+                <h6> Obama flow station</h6>
                 <p>
-                  Our expertise in gas processing sets us apart in the industry.
-                  We are the first Nigerian domestic company to commercialize
-                  flair Gas. We are proficient in handling various forms of
-                  natural gas, including LNG (Liquefied Natural Gas), CNG
-                  (Compressed Natural Gas), and LPG (Liquefied Petroleum Gas).
-                  Whether it's liquefaction, compression, or purification, our
-                  state-of-the-art facilities are equipped to handle each
-                  process efficiently and safely. Our team of seasoned
-                  professionals ensures that gas is processed to the highest
-                  standards, meeting the stringent demands of the market.
-                </p>
-                <h6>Complete Solutions for the Oil and Gas Industry</h6>
-                <p>
-                  At Alphaden Gas, we understand the intricacies of the oil and
-                  gas sector, and that's why we offer complete solutions. Our
-                  midstream capabilities ensure efficient transportation and
-                  storage of hydrocarbons, while our downstream expertise
-                  involves refining, marketing, and distributing the final
-                  products. With our end-to-end services, we streamline the
-                  entire supply chain, guaranteeing reliable and cost-effective
-                  operations.
+                  Obama flow station is a crude oil processing facility operated
+                  by Agip and located in Bayelsa State, Nigeria. The facility
+                  comprises of an inlet manifold, separation and storage units.
+                  Currently a large amount of gas produced in the facility is
+                  flared. In a bid to commercialize the produced gas that are
+                  currently partially flared and at the same time meet
+                  regulatory requirements on gas flaring, Alphaden Gas has been
+                  appointed to commercialize the flared gas produced from the
+                  facility. To ensure full commercialization of gas flared at
+                  Obama facility, Alphaden Gas has embarked on the design and
+                  construction of a 20mmscfd LPG and LNG plant.
                 </p>
               </div>
             </div>
             <div className="col-md-6 col-12">
-              <div className="about-main-img-2"></div>
+              <div className="about-main-img-3"></div>
             </div>
           </div>
         </div>
