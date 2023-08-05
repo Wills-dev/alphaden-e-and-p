@@ -81,7 +81,7 @@ const page = () => {
               <div className="about-main-content">
                 <h5>Project</h5>
 
-                <h6> Obama flow station</h6>
+                <h6> Obama Gas Flare commercialization Project</h6>
                 <p>
                   Obama flow station is a crude oil processing facility operated
                   by Agip and located in Bayelsa State, Nigeria. The facility
